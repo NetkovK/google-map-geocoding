@@ -1,0 +1,21 @@
+{
+    "name": "netkovk/google-map-geocoding",
+    "description": "geocoding",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "NetkovK",
+            "email": "netkovk@yandex.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "Netkovk\\GoogleMapGeocoding\\": ""
+        }
+    }
+}
